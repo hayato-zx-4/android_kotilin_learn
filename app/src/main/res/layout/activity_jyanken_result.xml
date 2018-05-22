@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/jyanken_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/jyanken_cpu_select_image"
+        app:layout_constraintEnd_toEndOf="@+id/jyanken_button"
+        app:layout_constraintStart_toStartOf="@+id/jyanken_button"
+        app:layout_constraintTop_toBottomOf="@+id/jyanken_select_image" />
+
+    <ImageView
+        android:id="@+id/jyanken_select_image"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/jyanken_result_text"
+        app:layout_constraintEnd_toEndOf="@+id/jyanken_result_text"
+        app:layout_constraintStart_toStartOf="@+id/jyanken_result_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/jyanken_cpu_select_image"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jyanken_button" />
+
+    <Button
+        android:id="@+id/jyanken_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="271dp"
+        android:text="Button"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/jyanken_cpu_select_image"
+        app:layout_constraintEnd_toEndOf="@+id/jyanken_cpu_select_image"
+        app:layout_constraintStart_toStartOf="@+id/jyanken_cpu_select_image"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidKotlinLearn</string>
+    <string name="title_text">kotlin 学習用 クソアプリ</string>
+    <string name="move_jyanken">じゃんけんぽん</string>
+    <string name="jyanken_text">じゃん！けん！！</string>
+    <string name="jyanken_result_win">あなたの勝ちです</string>
+    <string name="jyanken_result_draw">あいこです！もう一回！</string>
+    <string name="jyanken_result_lose">残念、負けです…</string>
+</resources>
